@@ -1,0 +1,7 @@
+name: ActiveVIP
+version: 1.0
+main: com.swert.active.Terminal
+authors: [ zSwert_ ]
+commands:
+  givepapel:
+    aliases: [giveactive]

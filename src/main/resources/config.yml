@@ -1,0 +1,24 @@
+Settings:
+  command-execute: 'darvip {player} {vip} {days}'
+  Sounds:
+    success: 'ORB_PICKUP'
+    error: 'VILLAGER_NO'
+  Item:
+    name: '&aAtivador vip'
+    material: 'DIAMOND'
+    lore:
+      - ''
+      - ' &fTipo de vip: {vip}'
+      - ' &fDuração: &b{days} dia(s)'
+      - ''
+      - '&7Clique com o direito para ativar!'
+    skullCustom: true
+    skullURL: 'https://textures.minecraft.net/texture/176bc68547c76ba4625085029804647b82f816705c8bb61e37d1485a75c72c5f'
+
+Messages:
+  activeVIP: '&b&lATIVADOR &eVocê ativou o vip {vip}'
+  containsVIP: '&cVocê já possui este VIP!'
+
+Vips:
+  vip:
+    name: '&b[VIP]'
